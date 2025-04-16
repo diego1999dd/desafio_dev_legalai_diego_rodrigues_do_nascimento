@@ -1,11 +1,18 @@
-import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import MatchForm from "./components/FormMatch";
+import MatchResults from "./components/MatchResultados";
 
 function App() {
   return (
     <>
-      <div>
-        <h1></h1>
-      </div>
+      <BrowserRouter>
+        <div className="min-h-[80vh]">
+          <Routes>
+            <Route path="/" element={<MatchForm />} />
+            <Route path="/resultados" element={<MatchResults />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
     </>
   );
 }
