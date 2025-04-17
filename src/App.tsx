@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import MatchForm from "./components/FormMatch";
-import MatchResults from "./components/MatchResultados";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -8,8 +7,7 @@ function App() {
       <BrowserRouter>
         <div className="min-h-[80vh]">
           <Routes>
-            <Route path="/" element={<MatchForm />} />
-            <Route path="/resultados" element={<MatchResults />} />
+            <Route path="/" element={<Home />} />
           </Routes>
         </div>
       </BrowserRouter>

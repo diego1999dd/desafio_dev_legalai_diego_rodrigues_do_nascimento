@@ -1,0 +1,142 @@
+[
+  {
+    "nome": "Caio Pereira",
+    "descricao": "Especialista em projetos inovadores.",
+    "interesse": "Aluguel",
+    "localizacao": "SP",
+    "localizacao_peso": 0
+  },
+  {
+    "nome": "Marina Lopes",
+    "descricao": "Apaixonado por tecnologia e soluções criativas.",
+    "interesse": "Drones",
+    "localizacao": "SP",
+    "localizacao_peso": 0
+  },
+  {
+    "nome": "Diego Torres",
+    "descricao": "Engenheira dedicada à automação inteligente.",
+    "interesse": "Aluguel",
+    "localizacao": "SP",
+    "localizacao_peso": 0
+  },
+  {
+    "nome": "Bruno Silva",
+    "descricao": "Consultor experiente em infraestrutura digital.",
+    "interesse": "Aluguel",
+    "localizacao": "PR",
+    "localizacao_peso": 3
+  },
+  {
+    "nome": "Juliana Souza",
+    "descricao": "Desenvolvedora com foco em acessibilidade.",
+    "interesse": "Tecnologia",
+    "localizacao": "SP",
+    "localizacao_peso": 0
+  },
+  {
+    "nome": "Carlos Lima",
+    "descricao": "Pesquisador na área de redes sem fio.",
+    "interesse": "Internet",
+    "localizacao": "SP",
+    "localizacao_peso": 0
+  },
+  {
+    "nome": "Elio Ananias",
+    "descricao": "Analista de dados com foco em IoT.",
+    "interesse": "Aluguel",
+    "localizacao": "SP",
+    "localizacao_peso": 0
+  },
+  {
+    "nome": "Tatiane Ribeiro",
+    "descricao": "Técnico de campo para monitoramento remoto.",
+    "interesse": "Internet",
+    "localizacao": "CE",
+    "localizacao_peso": 8
+  },
+  {
+    "nome": "Henrique Bastos",
+    "descricao": "Gestor de produtos para soluções urbanas.",
+    "interesse": "Tecnologia",
+    "localizacao": "SP",
+    "localizacao_peso": 0
+  },
+  {
+    "nome": "Eliane Junior",
+    "descricao": "Educadora e facilitadora de inovação.",
+    "interesse": "Internet",
+    "localizacao": "RJ",
+    "localizacao_peso": 1
+  },
+  {
+    "nome": "Rafael Cunha",
+    "descricao": "Especialista em projetos inovadores.",
+    "interesse": "Aluguel",
+    "localizacao": "DF",
+    "localizacao_peso": 5
+  },
+  {
+    "nome": "Giovana Nogueira",
+    "descricao": "Apaixonado por tecnologia e soluções criativas.",
+    "interesse": "Drones",
+    "localizacao": "BA",
+    "localizacao_peso": 6
+  },
+  {
+    "nome": "André Matos",
+    "descricao": "Engenheira dedicada à automação inteligente.",
+    "interesse": "Drones",
+    "localizacao": "SP",
+    "localizacao_peso": 0
+  },
+  {
+    "nome": "Fernanda Rocha",
+    "descricao": "Consultor experiente em infraestrutura digital.",
+    "interesse": "IoT",
+    "localizacao": "RJ",
+    "localizacao_peso": 1
+  },
+  {
+    "nome": "Luciana Teixeira",
+    "descricao": "Desenvolvedora com foco em acessibilidade.",
+    "interesse": "Internet",
+    "localizacao": "MG",
+    "localizacao_peso": 2
+  },
+  {
+    "nome": "Pedro Henrique",
+    "descricao": "Pesquisador na área de redes sem fio.",
+    "interesse": "Aluguel",
+    "localizacao": "DF",
+    "localizacao_peso": 5
+  },
+  {
+    "nome": "Sofia Martins",
+    "descricao": "Analista de dados com foco em IoT.",
+    "interesse": "Drones",
+    "localizacao": "PR",
+    "localizacao_peso": 3
+  },
+  {
+    "nome": "Renato Alves",
+    "descricao": "Técnico de campo para monitoramento remoto.",
+    "interesse": "IoT",
+    "localizacao": "PR",
+    "localizacao_peso": 3
+  },
+  {
+    "nome": "Isabela Mendes",
+    "descricao": "Gestor de produtos para soluções urbanas.",
+    "interesse": "Drones",
+    "localizacao": "MA",
+    "localizacao_peso": 9
+  },
+  {
+    "nome": "Thiago Costa",
+    "descricao": "Educadora e facilitadora de inovação.",
+    "interesse": "Aluguel",
+    "localizacao": "SC",
+    "localizacao_peso": 4
+  }
+]

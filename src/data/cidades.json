@@ -1,0 +1,38 @@
+[
+  {
+    "localizacao": "SP",
+    "peso": 0
+  },
+  {
+    "localizacao": "PR",
+    "peso": 3
+  },
+  {
+    "localizacao": "CE",
+    "peso": 8
+  },
+  {
+    "localizacao": "RJ",
+    "peso": 1
+  },
+  {
+    "localizacao": "DF",
+    "peso": 5
+  },
+  {
+    "localizacao": "BA",
+    "peso": 6
+  },
+  {
+    "localizacao": "MG",
+    "peso": 2
+  },
+  {
+    "localizacao": "MA",
+    "peso": 9
+  },
+  {
+    "localizacao": "SC",
+    "peso": 4
+  }
+]
