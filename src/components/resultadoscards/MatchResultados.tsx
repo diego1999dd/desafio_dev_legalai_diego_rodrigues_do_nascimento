@@ -1,6 +1,6 @@
-import usuariosJson from "../data/usuarios.json";
-import cidadesJson from "../data/cidades.json";
-import { simularAfinidade } from "../utils/simular";
+import usuariosJson from "../../data/usuarios.json";
+import cidadesJson from "../../data/cidades.json";
+import { simularAfinidade } from "../../utils/simular";
 import { Equals } from "phosphor-react";
 
 type MatchResultadosProps = {

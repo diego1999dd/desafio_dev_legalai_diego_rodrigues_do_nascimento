@@ -1,6 +1,6 @@
 import { IdentificationCard, Lightbulb, MapPinLine } from "phosphor-react";
 import { useState } from "react";
-import MatchResultados from "./MatchResultados";
+import MatchResultados from "../resultadoscards/MatchResultados";
 
 function MatchForm() {
   const [mostrarResultados, setMostrarResultados] = useState(false);
@@ -13,10 +13,7 @@ function MatchForm() {
   };
 
   return (
-    <div
-      className=" text-center 
-"
-    >
+    <div className=" text-center h-full">
       <div className="flex flex-col items-center justify-center p-10">
         <img
           src="https://ik.imagekit.io/s53kowf549/Logo.png?updatedAt=1744851159029"
@@ -27,7 +24,7 @@ function MatchForm() {
           Encontre suas afinidades!
         </h1>
       </div>
-      <div className="h-auto min-h-screen flex flex-col items-center">
+      <div className=" flex flex-col items-center">
         <form
           onSubmit={handleSubmit}
           className="w-[95%] max-w-120 space-y-3 text-left bg-slate-100 h-90 p-5 my-5 rounded-3xl border-r-7 border-b-6 border-slate-700"
