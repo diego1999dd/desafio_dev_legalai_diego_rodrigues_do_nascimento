@@ -19,7 +19,7 @@ function MatchForm() {
     >
       <div className="flex flex-col items-center justify-center p-10">
         <img
-          src="/src/assets/images/Logo.png"
+          src="https://ik.imagekit.io/s53kowf549/Logo.png?updatedAt=1744851159029"
           alt="Logo da empresa Legal"
           className="w-48"
         />
