@@ -21,7 +21,7 @@ function MatchForm() {
           className="w-48"
         />
         <h1 className="mt-5 px-5 p-2 font-bold bg-gray-900 text-[26px] text-white  rounded-2xl">
-          Encontre suas afinidades!
+          Descobrir Afinidades
         </h1>
       </div>
       <div className=" flex flex-col items-center">

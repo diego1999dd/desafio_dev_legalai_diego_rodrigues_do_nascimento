@@ -2,6 +2,8 @@ import usuariosJson from "../../data/usuarios.json";
 import cidadesJson from "../../data/cidades.json";
 import { simularAfinidade } from "../../utils/simular";
 import { Equals } from "phosphor-react";
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 type MatchResultadosProps = {
   interesse: string;
@@ -17,9 +19,17 @@ type UsuarioProps = {
 };
 
 function MatchResultados({ interesse, localizacao }: MatchResultadosProps) {
-  if (!interesse || !localizacao) {
-    return <p>Nenhuma área de interesse selecionada.</p>;
-  }
+  const navigate = useNavigate();
+
+  const handleReset = () => {
+    window.location.href = "/";
+  };
+
+  useEffect(() => {
+    if (!interesse || !localizacao) {
+      navigate("/");
+    }
+  }, [interesse, localizacao, navigate]);
 
   const cidadeAtual = cidadesJson.filter(
     (cidade) => cidade.localizacao == localizacao
@@ -50,6 +60,14 @@ function MatchResultados({ interesse, localizacao }: MatchResultadosProps) {
 
   return (
     <div className="p-4 max-w-[1440px] w-full">
+      <div className="flex justify-center">
+        <button
+          onClick={handleReset}
+          className="mt-5 px-3 p-2 rounded-xl bg-gray-800 hover:bg-green-400 hover:text-black text-white font-medium cursor-pointer transition delay-170 duration-170 ease-in-out"
+        >
+          Resetar Conexões
+        </button>
+      </div>
       <h2 className="text-[27px] text-white [text-shadow:_2px_2px_2px_#314158] font-bold  mt-10 mb-5">
         Conexões encontradas:
       </h2>
@@ -77,7 +95,9 @@ function MatchResultados({ interesse, localizacao }: MatchResultadosProps) {
             </div>
           ))
         ) : (
-          <p>Nenhuma conexão encontrada para essa área de interesse.</p>
+          <p className="text-white">
+            Nenhuma conexão encontrada para essa área de interesse.
+          </p>
         )}
       </div>
     </div>
